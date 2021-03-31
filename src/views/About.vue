@@ -1,5 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div>
+      <Aboutsection/>
+    
+    </div>
 </template>
+
+<script>
+import Aboutsection from '../components/about/Aboutsection.vue';
+
+export default {
+    components:{Aboutsection}
+}
+</script>
+
+<style>
+
+</style>
